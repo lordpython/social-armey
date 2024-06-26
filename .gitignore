@@ -1,0 +1,8 @@
+# .gitignore
+config.yml
+*.pyc
+__pycache__/
+.env
+.DS_Store
+config.json
+templates/
