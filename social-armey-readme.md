@@ -64,13 +64,9 @@ Get up and running with Social-Armey in just a few steps:
 
 1. **Launch the main app**
    ```sh
-   python app.py
+   streamlit run app.py
    ```
 
-2. **Start audio processing (if needed)**
-   ```sh
-   python stream.py
-   ```
 
 ### Key Components
 
@@ -101,8 +97,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <div align="center">
 
-Made with ❤️ by Your Team Name
+Made with ❤️ by https://github.com/lordpython
 
-[Report Bug](https://github.com/yourusername/social-armey/issues) • [Request Feature](https://github.com/yourusername/social-armey/issues)
+[Report Bug](https://github.com/lordpython/social-armey/issues) • [Request Feature](https://github.com/lordpython/social-armey/issues)
 
 </div>
