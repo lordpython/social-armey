@@ -63,7 +63,7 @@ Get up and running with Social-Armey in just a few steps:
 ### Running the Application
 
 1. **Launch the main app**
-   ```sh
+   ```bash
    streamlit run app.py
    ```
 
