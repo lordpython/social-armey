@@ -268,7 +268,7 @@ def execution_tab(api, api_key, temp, model, agent_1_role, agent_1_backstory, ag
                 sys.stdout = original_stdout
 
     """
-    Render the Execution tab in the Streamlit app and run the CrewAI process.
+    Render the Execution tab in the Streamlit app and run the Agents process.
     
     Args:
     api (str): The selected API
@@ -349,7 +349,7 @@ def execution_tab(api, api_key, temp, model, agent_1_role, agent_1_backstory, ag
                 })
                 results_df.to_csv('results.csv', mode='a', header=not os.path.exists('results.csv'), index=False)
                 
-                logging.info("CrewAI process completed successfully")
+                logging.info("Agents process completed successfully")
                 st.success("Process completed successfully!")
 
             except Exception as e:
@@ -366,7 +366,7 @@ def results_tab():
     
     try:
         results_df = pd.read_csv('results.csv')
-        st.write("Here are the latest results from your CrewAI executions:")
+        st.write("Here are the latest results from your agents executions:")
         st.dataframe(results_df)
         
         if st.button("Download Results CSV"):
@@ -374,7 +374,7 @@ def results_tab():
             st.download_button(
                 label="Click here to download",
                 data=csv,
-                file_name="crewai_results.csv",
+                file_name="Agents_results.csv",
                 mime="text/csv",
             )
     except FileNotFoundError:

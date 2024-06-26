@@ -1,8 +1,7 @@
-crewai
-dotenv
-langchain_anthropic
-langchain_community
-langchain_groq
-pandas
-stream
 streamlit
+crewai
+dotenv-python
+langchain-anthropic
+langchain-community
+langchain-groq
+pandas
