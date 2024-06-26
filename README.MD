@@ -32,9 +32,9 @@ Social-Armey leverages cutting-edge AI technology to revolutionize your social m
 project-root/
 │
 ├── 📜 app.py            # Main application script
-├── 🔊 stream.py         # Audio streaming and processing
+├── 🔊 stream.py         # streaming and processing
 ├── 🖼 logo.png          # Application logo
-└── 🎵 robot.wav         # Sample audio file
+└── 🎵 robot.wav         # intro audio file
 ```
 
 ## 🚀 Installation
