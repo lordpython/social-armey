@@ -5,3 +5,4 @@ langchain-anthropic
 langchain-community
 langchain-groq
 pandas
+tornado>=6.5.3 # not directly required, pinned by Snyk to avoid a vulnerability
